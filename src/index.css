@@ -7,25 +7,28 @@ html {
 * {
   margin:0 ;
 }
-html {
-  height: 100%;
-}
 body {
-  background-image: url(logo.svg), -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
-  min-height: 100%;
-  background-position: center 80px, center center;
-  background-repeat:no-repeat;
-  background-size: 300px, 100% 100%;
-  display: flex;
-  align-items: flex-end;
+  background: #0f574e;
+  background: -webkit-linear-gradient( to top , #007d35, #0f574e );
+  background: linear-gradient( to top,  #007d35, #0f574e ); 
+  width: 100%;
+  height: 100vh;
 }
-@media (min-width:768px) {
-  body {
-    align-items: center;
-    background-size: 400px, 100% 100%;
-  }
-}
-
 #root {
   width: 100%;
+}
+.container-img {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 20%;
+  display: block;
+}
+@media ( max-width:768px ) {
+  img {
+    width: 30%;
+  }
 }

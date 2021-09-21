@@ -5,7 +5,7 @@ import { Frase } from './components/Frase';
 const Contenedor = styled.div`
     display: flex;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 4rem;
     flex-direction: column;
 `;
 
@@ -16,7 +16,7 @@ const Boton = styled.button`
     color: #FFF;
     margin-top: 3rem;
     padding: 1rem 3rem;
-    font-size: 2rem;
+    font-size: 1.3rem;
     border: 2px solid black;
     transition: background-size .8s ease;
 
@@ -54,6 +54,7 @@ function App() {
       </Boton> 
     </Contenedor>
   );
+
 }
 
 export default App;
