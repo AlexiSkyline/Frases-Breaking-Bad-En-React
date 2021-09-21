@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from '@emotion/styled';
 import { Frase } from './components/Frase';
 
@@ -18,6 +18,12 @@ const Boton = styled.button`
     padding: 1rem 3rem;
     font-size: 2rem;
     border: 2px solid black;
+    transition: background-size .8s ease;
+
+    :hover {
+      cursor: pointer;
+      background-size: 400px;
+    }
 `;
 
 function App() {
@@ -30,7 +36,12 @@ function App() {
     
     setFrase(frase[0]);
   }
-
+  
+  // TODO Cargar una Frase
+  useEffect( () => {
+    consultarAPI();
+  }, [])
+  
   return (
     <Contenedor>
       <Frase 
