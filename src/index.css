@@ -8,6 +8,8 @@ html {
   margin:0 ;
 }
 body {
+  margin: 0;
+  padding: 0;
   background: #0f574e;
   background: -webkit-linear-gradient( to top , #007d35, #0f574e );
   background: linear-gradient( to top,  #007d35, #0f574e ); 
@@ -18,7 +20,7 @@ body {
   width: 100%;
 }
 .container-img {
-  margin-top: 20px;
+  padding-top: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -30,5 +32,10 @@ img {
 @media ( max-width:768px ) {
   img {
     width: 30%;
+  }
+}
+@media ( max-width:500px ) {
+  img {
+    width: 40%;
   }
 }

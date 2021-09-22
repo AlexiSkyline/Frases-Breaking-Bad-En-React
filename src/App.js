@@ -5,7 +5,7 @@ import { Frase } from './components/Frase';
 const Contenedor = styled.div`
     display: flex;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
     flex-direction: column;
 `;
 

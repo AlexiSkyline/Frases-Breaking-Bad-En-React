@@ -5,7 +5,7 @@ const ContenedorFrase = styled.div`
     padding: 3rem;
     border-radius: .5rem;
     background-color: #fff;
-    max-width: 800px;
+    max-width: 900px;
 
     h1 {
         font-family: Arial, Helvetica, sans-serif;
