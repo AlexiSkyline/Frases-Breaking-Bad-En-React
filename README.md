@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4164d534-a7db-4311-92bc-ee7157cc3fd0/deploy-status)](https://frases-braking-bad-react-byalexis.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
