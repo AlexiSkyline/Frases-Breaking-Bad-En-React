@@ -31,7 +31,7 @@ function App() {
   const [ frase, setFrase ] = useState({});
 
   const consultarAPI = async () => {
-    const request = await fetch( 'http://breaking-bad-quotes.herokuapp.com/v1/quotes' );
+    const request = await fetch( 'https://breaking-bad-quotes.herokuapp.com/v1/quotes' );
     const frase = await request.json();
     
     setFrase(frase[0]);
